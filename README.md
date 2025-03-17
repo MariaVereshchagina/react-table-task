@@ -1,8 +1,10 @@
-# React + Vite
+# React Table Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Одностраничное веб-приложение (SPA) на React, реализующее таблицу с данными. Поддерживает раскрытие строк с дочерними элементами, фильтрацию по статусу активности (`isActive`) и сортировку по полям `balance` и `email`.
 
-Currently, two official plugins are available:
+## Особенности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Построено на React 18+ с использованием хуков (`useState`, `useMemo`, `useCallback`).
+- Рекурсивное отображение иерархических данных.
+- Кастомные стили без использования UI-библиотек.
+- Адаптивный дизайн с поддержкой современных версий Google Chrome.
